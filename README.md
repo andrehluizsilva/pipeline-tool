@@ -36,7 +36,9 @@ Examples
 =====
 Should fetch git code and execute `build` pipeline:
 ```shell
-./pipeline.go build https://github.com/andrehluizsilva/pipeline-sample.git
+go build ./pipeline.go
+./pipeline
+ build https://github.com/andrehluizsilva/pipeline-sample.git
 ```
 
 Testing
