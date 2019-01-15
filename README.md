@@ -37,8 +37,7 @@ Examples
 Should fetch git code and execute `build` pipeline:
 ```shell
 go build ./pipeline.go
-./pipeline
- build https://github.com/andrehluizsilva/pipeline-sample.git
+./pipeline build https://github.com/andrehluizsilva/pipeline-sample.git
 ```
 
 Testing
